@@ -1,7 +1,7 @@
 //1 задание
 function printWindowValues() {
   for (let i in window) {
-    console.log(i);
+    console.log(window[i]);
   }
 }
 
